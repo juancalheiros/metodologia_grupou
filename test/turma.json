@@ -1,0 +1,85 @@
+{
+  "alunos": [
+    {
+      "nome_completo": "Christine Bettini",
+      "hardskills": {
+        "API": {
+          "nota": 22.06
+        },
+        "REST": {
+          "nota": 21
+        },
+        "Firebase": {
+          "nota": 44.64
+        }
+      }
+    },
+    {
+      "nome_completo": "Kevin Ford",
+      "hardskills": {
+        "API": {
+          "nota": 25.94
+        },
+        "REST": {
+          "nota": 18.94
+        },
+        "Firebase": {
+          "nota": 41.04
+        }
+      }
+    },
+    {
+      "nome_completo": "Trevor Wiersema",
+      "hardskills": {
+        "API": {
+          "nota": 21.54
+        },
+        "REST": {
+          "nota": 14.28
+        },
+        "Firebase": {
+          "nota": 44.45
+        }
+      }
+    },
+    {
+      "nome_completo": "Eddie Mazzuoli",
+      "hardskills": {
+        "API": {
+          "nota": 24.25
+        },
+        "REST": {
+          "nota": 12.88
+        },
+        "Firebase": {
+          "nota": 40.44
+        }
+      }
+    },
+    {
+      "nome_completo": "Ora Manni",
+      "hardskills": {
+        "API": {
+          "nota": 29.25
+        },
+        "REST": {
+          "nota": 15.16
+        },
+        "Firebase": {
+          "nota": 42.38
+        }
+      }
+    }
+  ],
+  "hardskills_atividade": {
+    "API": {
+      "peso": 20
+    },
+    "REST": {
+      "peso": 40
+    },
+    "Firebase": {
+      "peso": 40
+    }
+  }
+}

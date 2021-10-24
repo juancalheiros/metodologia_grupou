@@ -20,22 +20,22 @@ grupos = {}
 for (let i = 0; i < quantidade_grupos; i++) {
   grupos[`grupo_${i + 1}`] = []
 }
-let grupo_corrente = 1;
-while (turma.alunos.length > 0) {
-  // console.log(grupo_corrente, quantidade_grupos)
-  if (grupo_corrente > Math.ceil(quantidade_grupos)) grupo_corrente = 1;
-  console.log('grupo_corrente', grupo_corrente)
-  let posicao = getRandomInt(1, turma.alunos.length) - 1
-  console.log(' posicao', posicao, turma.alunos.length)
-  let aluno = turma.alunos[posicao]
+// let grupo_corrente = 1;
+// while (turma.alunos.length > 0) {
+//   // console.log(grupo_corrente, quantidade_grupos)
+//   if (grupo_corrente > Math.ceil(quantidade_grupos)) grupo_corrente = 1;
+//   console.log('grupo_corrente', grupo_corrente)
+//   let posicao = getRandomInt(1, turma.alunos.length) - 1
+//   console.log(' posicao', posicao, turma.alunos.length)
+//   let aluno = turma.alunos[posicao]
 
-  grupos[`grupo_${grupo_corrente}`].push(aluno)
+//   grupos[`grupo_${grupo_corrente}`].push(aluno)
 
-  // console.log(aluno)
-  turma.alunos.splice(posicao, 1);
-  grupo_corrente += 1;
+//   // console.log(aluno)
+//   turma.alunos.splice(posicao, 1);
+//   grupo_corrente += 1;
 
-}
+// }
 
 // for (let a in turma.alunos) {
 //   let aluno = turma.alunos[a]
