@@ -1,4 +1,4 @@
-
+const util = require("./test/util.json")
 
 const calcularGrauHardSkill = ({ alunos, hardskills_atividade }) => {
     const resp = []
@@ -93,8 +93,12 @@ const formarGrupo = (lista, qntdIntegrantesGrupo) => {
 const main = (lista, maxTamGrupo) => {
     const listaInicial = calcularGrauHardSkill(lista)
     const listaOrdenada = ordenarMedias(listaInicial)
-    
-    return formarGrupo(listaOrdenada, maxTamGrupo)
+    const grupos = formarGrupo(listaOrdenada, maxTamGrupo)
+
+    return grupos.reduce((acumulate, grupo, index) => {
+        acumulate.grupos[`grupo_${index + 1}`] = grupo
+        return acumulate
+    }, { grupos:{} } )    
 }
 
 
