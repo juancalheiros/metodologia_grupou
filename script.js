@@ -1,5 +1,3 @@
-const util = require("./test/util.json")
-
 const calcularGrauHardSkill = ({ alunos, hardskills_atividade }) => {
     const resp = []
     alunos.forEach((aluno, index, alunos) => {
