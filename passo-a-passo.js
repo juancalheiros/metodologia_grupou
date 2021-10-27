@@ -20,6 +20,10 @@ const etapas = {
     descricao: "Executar a performance, e acurácia dos grupos criados nas etapas 03 e 04",
     comando: "node analyzer.js -i grupos/111_1.json -o analises",
     arquivo_gerado: "será criada uma análise no diretório de output informado no comando acima"
+  },
+  etapa_06: {
+    descricao: "Executar teste da metodologia proposta",
+    comando: "npm test",
   }
 }
 
