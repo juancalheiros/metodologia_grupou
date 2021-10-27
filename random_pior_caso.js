@@ -1,58 +1,23 @@
 //node random_pior_caso.js -i turmas/123.json -o grupos -q 6 -s 1
 
-var argv = require('yargs/yargs')(process.argv.slice(2)).argv;
-// console.log(argv)
+const argv = require('yargs/yargs')(process.argv.slice(2)).argv;
+const formarGrupos = require("./script").main
 const fs = require('fs');
 
-function getRandomInt(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-}
+const rawdata = fs.readFileSync(argv.i);
+const turma = JSON.parse(rawdata);
+const groups = formarGrupos(turma, argv.q)
+const { hardskills_atividade } = turma
+const regexp = /[0-9]\d+/g
+const classNumber = `${regexp.exec(argv.i)[0]}_${argv.s}`
+const filePath = `${argv.o}/${classNumber}.json`
+const convertJSON = JSON.stringify({ ...groups, hardskills_atividade }, null, 2)
 
-let rawdata = fs.readFileSync(argv.i);
-let turma = JSON.parse(rawdata);
-
-let total_alunos = turma.alunos.length;
-let quantidade_grupos = total_alunos / argv.q;
-// console.log(total_alunos / argv.q)
-
-grupos = {}
-
-for (let i = 0; i < quantidade_grupos; i++) {
-  grupos[`grupo_${i + 1}`] = []
-}
-// let grupo_corrente = 1;
-// while (turma.alunos.length > 0) {
-//   // console.log(grupo_corrente, quantidade_grupos)
-//   if (grupo_corrente > Math.ceil(quantidade_grupos)) grupo_corrente = 1;
-//   console.log('grupo_corrente', grupo_corrente)
-//   let posicao = getRandomInt(1, turma.alunos.length) - 1
-//   console.log(' posicao', posicao, turma.alunos.length)
-//   let aluno = turma.alunos[posicao]
-
-//   grupos[`grupo_${grupo_corrente}`].push(aluno)
-
-//   // console.log(aluno)
-//   turma.alunos.splice(posicao, 1);
-//   grupo_corrente += 1;
-
-// }
-
-// for (let a in turma.alunos) {
-//   let aluno = turma.alunos[a]
-//   // console.log(a, aluno)
-// }
-
-
-let filename = argv.i.split("/")[1].split(".json")[0]
-
-fs.writeFile(`${argv.o}/${filename}_${argv.s}.json`, JSON.stringify({
-  grupos,
-  hardskills_atividade: turma.hardskills_atividade
-
-}, null, 2), function (err) {
+const message = err => {
   if (err) throw err;
   console.log('complete');
 }
-);
+
+fs.writeFile(filePath, convertJSON, message );
 
 
