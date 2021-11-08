@@ -1,0 +1,776 @@
+{ 
+  "calcularGrauHardSkill":[
+    {
+      "nome_completo": "Christine Bettini",
+      "hardskills": {
+        "API": {
+          "nota": 22.06
+        },
+        "REST": {
+          "nota": 21
+        },
+        "Firebase": {
+          "nota": 44.64
+        }
+      },
+      "grauHardSkill": {
+            "nota": 30.67
+        }
+    },
+    {
+      "nome_completo": "Kevin Ford",
+      "hardskills": {
+        "API": {
+          "nota": 25.94
+        },
+        "REST": {
+          "nota": 18.94
+        },
+        "Firebase": {
+          "nota": 41.04
+        }
+      },
+      "grauHardSkill": {
+            "nota": 29.18
+        }
+    },
+    {
+      "nome_completo": "Trevor Wiersema",
+      "hardskills": {
+        "API": {
+          "nota": 21.54
+        },
+        "REST": {
+          "nota": 14.28
+        },
+        "Firebase": {
+          "nota": 44.45
+        }
+      },
+      "grauHardSkill": {
+            "nota": 27.80
+        }
+    },
+    {
+      "nome_completo": "Eddie Mazzuoli",
+      "hardskills": {
+        "API": {
+          "nota": 24.25
+        },
+        "REST": {
+          "nota": 12.88
+        },
+        "Firebase": {
+          "nota": 40.44
+        }
+      },
+      "grauHardSkill": {
+            "nota": 26.18
+        }
+    },
+    {
+      "nome_completo": "Ora Manni",
+      "hardskills": {
+        "API": {
+          "nota": 29.25
+        },
+        "REST": {
+          "nota": 15.16
+        },
+        "Firebase": {
+          "nota": 42.38
+        }
+      },
+      "grauHardSkill": {
+            "nota": 28.87
+        }
+    }
+  ],
+
+
+  "ordenarMedias": { 
+    "lista": [ 
+      {
+          "nome_completo": "Christine Bettini",
+          "grauHardSkill": {
+              "nota": 30.67
+          }
+      },     
+      {
+
+          "nome_completo": "Trevor Wiersema",
+          "grauHardSkill": {
+              "nota": 28.45
+          }
+      },
+      {
+          "nome_completo": "Kevin Ford",
+          "grauHardSkill": {
+              "nota": 29.18
+          }
+      },
+      {
+
+          "nome_completo": "Eddie Mazzuoli",
+          "grauHardSkill": {
+              "nota": 20.10
+          }
+      },
+      {
+
+          "nome_completo": "Ora Manni",
+          "grauHardSkill": {
+              "nota": 32.85
+          }
+      }
+    ],
+    "resp": [
+      {
+          "nome_completo": "Eddie Mazzuoli",
+          "grauHardSkill": {
+            "nota": 20.10
+          }
+      },
+      {
+          "nome_completo": "Trevor Wiersema",
+          "grauHardSkill": {
+            "nota": 28.45
+          }
+      },
+      {  
+          "nome_completo": "Kevin Ford",
+          "grauHardSkill": {
+            "nota": 29.18
+          }
+      },
+      {
+          "nome_completo": "Christine Bettini",
+          "grauHardSkill": {
+            "nota": 30.67
+          }
+      },
+      {
+          "nome_completo": "Ora Manni",
+          "grauHardSkill": {
+            "nota": 32.85
+          }
+      }   
+    ]
+  },
+
+
+  "formarGrupo":{
+    "tuma1": [
+      {
+        "nome_completo": "Eddie Mazzuoli",
+        "grauHardSkill": {
+          "nota": 20.10
+        }
+      },
+      {
+          "nome_completo": "Trevor Wiersema",
+          "grauHardSkill": {
+            "nota": 28.45
+          }
+      },
+      {  
+          "nome_completo": "Kevin Ford",
+          "grauHardSkill": {
+            "nota": 29.18
+          }
+      },
+      {
+          "nome_completo": "Christine Bettini",
+          "grauHardSkill": {
+            "nota": 30.67
+          }
+      },
+      {
+          "nome_completo": "Ora Manni",
+          "grauHardSkill": {
+            "nota": 32.85
+          }
+      },
+      {
+          "nome_completo": "Mariano costa",
+          "grauHardSkill": {
+            "nota": 33.85
+          }
+      },
+      {
+        "nome_completo": "Eddie Fernandes",
+        "grauHardSkill": {
+          "nota": 33.99
+        }
+      },
+      {
+          "nome_completo": "Michele Santos",
+          "grauHardSkill": {
+            "nota": 34.00
+          }
+      },
+      {  
+          "nome_completo": "Michael Jackson",
+          "grauHardSkill": {
+            "nota": 34.13
+          }
+      },
+      {
+          "nome_completo": "Cristiano Ronaldo",
+          "grauHardSkill": {
+            "nota": 34.45
+          }
+      },
+      {
+          "nome_completo": "Marcio Garcia",
+          "grauHardSkill": {
+            "nota": 34.49
+          }
+      },
+      {
+          "nome_completo": "Spencer Ready",
+          "grauHardSkill": {
+            "nota": 34.50
+          }
+      },
+      {
+        "nome_completo": "Edmilson Costa",
+        "grauHardSkill": {
+          "nota": 34.50
+        }
+      },
+      {
+          "nome_completo": "Millena Albuquerque",
+          "grauHardSkill": {
+            "nota": 34.50
+          }
+      },
+      {  
+          "nome_completo": "Junior Batista",
+          "grauHardSkill": {
+            "nota": 35.30
+          }
+      },
+      {
+          "nome_completo": "Christine Sampaio",
+          "grauHardSkill": {
+            "nota": 35.60
+          }
+      },
+      {
+          "nome_completo": "Helder Abreu",
+          "grauHardSkill": {
+            "nota": 36.00
+          }
+      },
+      {
+          "nome_completo": "Camila Souza",
+          "grauHardSkill": {
+            "nota": 36.30
+          }
+      },
+      {
+        "nome_completo": "Eddie Hazard",
+        "grauHardSkill": {
+          "nota": 36.67
+        }
+      },
+      {
+          "nome_completo": "Anissa keyt",
+          "grauHardSkill": {
+            "nota": 36.87
+          }
+      },
+      {  
+          "nome_completo": "Kevin Porter",
+          "grauHardSkill": {
+            "nota": 36.98
+          }
+      },
+      {
+          "nome_completo": "Marie Currie",
+          "grauHardSkill": {
+            "nota": 37.00
+          }
+      },
+      {
+          "nome_completo": "Luana Christina",
+          "grauHardSkill": {
+            "nota": 39.00
+          }
+      },
+      {
+          "nome_completo": "Aaron Walker",
+          "grauHardSkill": {
+            "nota": 40.00
+          }
+      }
+    ],
+    "respTurma1": [
+      [
+        {
+          "nome_completo": "Aaron Walker",
+          "grauHardSkill": {
+            "nota": 40.00
+          }
+        },
+        {
+          "nome_completo": "Eddie Mazzuoli",
+          "grauHardSkill": {
+            "nota": 20.10
+          }
+        },
+        {
+          "nome_completo": "Luana Christina",
+          "grauHardSkill": {
+            "nota": 39.00
+          }
+        },
+        {
+          "nome_completo": "Trevor Wiersema",
+          "grauHardSkill": {
+            "nota": 28.45
+          }
+        }
+      ],
+      [
+        {
+          "nome_completo": "Marie Currie",
+          "grauHardSkill": {
+            "nota": 37.00
+          }
+        },
+        {  
+          "nome_completo": "Kevin Ford",
+          "grauHardSkill": {
+            "nota": 29.18
+          }
+        },
+        {  
+          "nome_completo": "Kevin Porter",
+          "grauHardSkill": {
+            "nota": 36.98
+          }
+        },
+        {
+          "nome_completo": "Christine Bettini",
+          "grauHardSkill": {
+            "nota": 30.67
+          }
+        }
+      ],
+      [
+        {
+          "nome_completo": "Anissa keyt",
+          "grauHardSkill": {
+            "nota": 36.87
+          }
+        },{
+          "nome_completo": "Ora Manni",
+          "grauHardSkill": {
+            "nota": 32.85
+          }
+        },
+        {
+          "nome_completo": "Eddie Hazard",
+          "grauHardSkill": {
+            "nota": 36.67
+          }
+        },
+        {
+            "nome_completo": "Mariano costa",
+            "grauHardSkill": {
+              "nota": 33.85
+            }
+        }
+      ],
+      [
+        {
+          "nome_completo": "Camila Souza",
+          "grauHardSkill": {
+            "nota": 36.30
+          }
+        },
+        {
+          "nome_completo": "Eddie Fernandes",
+          "grauHardSkill": {
+            "nota": 33.99
+          }
+        },
+        {
+          "nome_completo": "Helder Abreu",
+          "grauHardSkill": {
+            "nota": 36.00
+          }
+        },
+        {
+            "nome_completo": "Michele Santos",
+            "grauHardSkill": {
+              "nota": 34.00
+            }
+        }
+      ],
+      [
+        {
+          "nome_completo": "Christine Sampaio",
+          "grauHardSkill": {
+            "nota": 35.60
+          }
+        },
+        {  
+          "nome_completo": "Michael Jackson",
+          "grauHardSkill": {
+            "nota": 34.13
+          }
+        },
+        {  
+          "nome_completo": "Junior Batista",
+          "grauHardSkill": {
+            "nota": 35.30
+          }
+        },
+        {
+            "nome_completo": "Cristiano Ronaldo",
+            "grauHardSkill": {
+              "nota": 34.45
+            }
+        }
+      ],
+      [
+        {
+          "nome_completo": "Millena Albuquerque",
+          "grauHardSkill": {
+            "nota": 34.50
+          }
+        },
+        {
+          "nome_completo": "Marcio Garcia",
+          "grauHardSkill": {
+            "nota": 34.49
+          }
+        },
+        {
+          "nome_completo": "Edmilson Costa",
+          "grauHardSkill": {
+            "nota": 34.50
+          }
+        },
+        {
+            "nome_completo": "Spencer Ready",
+            "grauHardSkill": {
+              "nota": 34.50
+            }
+        }
+      ]
+    ]
+  },
+
+
+  "main":{
+    "turma1":{ 
+      "alunos":[
+        {
+          "nome_completo": "Christine Bettini",
+          "hardskills": {
+            "API": {
+              "nota": 22.06
+            },
+            "REST": {
+              "nota": 21.00
+            },
+            "Firebase": {
+              "nota": 44.64
+            }
+          }
+        },
+        {
+          "nome_completo": "Kevin Ford",
+          "hardskills": {
+            "API": {
+              "nota": 25.94
+            },
+            "REST": {
+              "nota": 18.94
+            },
+            "Firebase": {
+              "nota": 41.04
+            }
+          }
+        },
+        {
+          "nome_completo": "Christine Scooter",
+          "hardskills": {
+            "API": {
+              "nota": 21.54
+            },
+            "REST": {
+              "nota": 14.28
+            },
+            "Firebase": {
+              "nota": 44.45
+            }
+          }
+        },
+        {
+          "nome_completo": "Eddie Mazzuoli",
+          "hardskills": {
+            "API": {
+              "nota": 24.25
+            },
+            "REST": {
+              "nota": 12.88
+            },
+            "Firebase": {
+              "nota": 40.44
+            }
+          }
+        },
+        {
+          "nome_completo": "Ora Manni",
+          "hardskills": {
+            "API": {
+              "nota": 29.25
+            },
+            "REST": {
+              "nota": 15.16
+            },
+            "Firebase": {
+              "nota": 42.38
+            }
+          }
+        },
+        {
+          "nome_completo": "Aaron Walker",
+          "hardskills": {
+            "API": {
+              "nota": 25.05
+            },
+            "REST": {
+              "nota": 21.45
+            },
+            "Firebase": {
+              "nota": 40.64
+            }
+          }
+        },
+        {
+          "nome_completo": "Eddie Mazzuoli",
+          "hardskills": {
+            "API": {
+              "nota": 25.23
+            },
+            "REST": {
+              "nota": 18.00
+            },
+            "Firebase": {
+              "nota": 30.00
+            }
+          }
+        },
+        {
+          "nome_completo": "Trevor Wiersema",
+          "hardskills": {
+            "API": {
+              "nota": 21.54
+            },
+            "REST": {
+              "nota": 14.28
+            },
+            "Firebase": {
+              "nota": 44.45
+            }
+          }
+        },
+        {
+          "nome_completo": "Luana Christina",
+          "hardskills": {
+            "API": {
+              "nota": 20.00
+            },
+            "REST": {
+              "nota": 15.00
+            },
+            "Firebase": {
+              "nota": 40.00
+            }
+          }
+        }
+      ],
+      "hardskills_atividade":{
+        "API":{
+          "peso":20
+        },
+        "REST":{
+          "peso":40
+        },
+        "Firebase":{
+          "peso":40
+        }
+      }
+    },
+    "respTurma1": {
+      "grupos":{
+        "grupo_1":[
+          {
+            "nome_completo": "Christine Bettini",
+            "hardskills": {
+              "API": {
+                "nota": 22.06
+              },
+              "REST": {
+                "nota": 21
+              },
+              "Firebase": {
+                "nota": 44.64
+              }
+            },
+            "grauHardSkill": {
+                  "nota": 30.67
+              }
+          },
+          {
+            "nome_completo": "Eddie Mazzuoli",
+            "hardskills": {
+              "API": {
+                "nota": 25.23
+              },
+              "REST": {
+                "nota": 18.00
+              },
+              "Firebase": {
+                "nota": 30.00
+              }
+            },
+            "grauHardSkill": {
+              "nota": 24.25
+            }
+          },
+          {
+            "nome_completo": "Aaron Walker",
+            "hardskills": {
+              "API": {
+                "nota": 25.05
+              },
+              "REST": {
+                "nota": 21.45
+              },
+              "Firebase": {
+                "nota": 40.64
+              }
+            },
+            "grauHardSkill": {
+              "nota": 29.85
+            }
+          }
+        ],
+        "grupo_2":[
+          {
+            "nome_completo": "Kevin Ford",
+            "hardskills": {
+              "API": {
+                "nota": 25.94
+              },
+              "REST": {
+                "nota": 18.94
+              },
+              "Firebase": {
+                "nota": 41.04
+              }
+            },
+            "grauHardSkill": {
+                  "nota": 29.18
+              }
+          },
+          {
+            "nome_completo": "Luana Christina",
+            "hardskills": {
+              "API": {
+                "nota": 20.00
+              },
+              "REST": {
+                "nota": 15.00
+              },
+              "Firebase": {
+                "nota": 40.00
+              }
+            },
+            "grauHardSkill": {
+              "nota": 26
+            }
+          },
+          {
+            "nome_completo": "Ora Manni",
+            "hardskills": {
+              "API": {
+                "nota": 29.25
+              },
+              "REST": {
+                "nota": 15.16
+              },
+              "Firebase": {
+                "nota": 42.38
+              }
+            },
+            "grauHardSkill": {
+                  "nota": 28.87
+              }
+          }
+        ],
+        "grupo_3":[
+          {
+            "nome_completo": "Trevor Wiersema",
+            "hardskills": {
+              "API": {
+                "nota": 21.54
+              },
+              "REST": {
+                "nota": 14.28
+              },
+              "Firebase": {
+                "nota": 44.45
+              }
+            },
+            "grauHardSkill": {
+              "nota": 27.80
+            }
+          },
+          {
+            "nome_completo": "Eddie Mazzuoli",
+            "hardskills": {
+              "API": {
+                "nota": 24.25
+              },
+              "REST": {
+                "nota": 12.88
+              },
+              "Firebase": {
+                "nota": 40.44
+              }
+            },
+            "grauHardSkill": {
+                  "nota": 26.18
+              }
+          },
+          {
+            "nome_completo": "Christine Scooter",
+            "hardskills": {
+              "API": {
+                "nota": 21.54
+              },
+              "REST": {
+                "nota": 14.28
+              },
+              "Firebase": {
+                "nota": 44.45
+              }
+            },
+            "grauHardSkill": {
+                  "nota": 27.80
+              }
+          }
+        ]
+      } 
+    }
+  }
+  
+}
