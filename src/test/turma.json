@@ -9,7 +9,7 @@
         "REST": {
           "nota": 21
         },
-        "Firebase": {
+        "FIREBASE": {
           "nota": 44.64
         }
       }
@@ -23,7 +23,7 @@
         "REST": {
           "nota": 18.94
         },
-        "Firebase": {
+        "FIREBASE": {
           "nota": 41.04
         }
       }
@@ -37,7 +37,7 @@
         "REST": {
           "nota": 14.28
         },
-        "Firebase": {
+        "FIREBASE": {
           "nota": 44.45
         }
       }
@@ -51,7 +51,7 @@
         "REST": {
           "nota": 12.88
         },
-        "Firebase": {
+        "FIREBASE": {
           "nota": 40.44
         }
       }
@@ -65,7 +65,7 @@
         "REST": {
           "nota": 15.16
         },
-        "Firebase": {
+        "FIREBASE": {
           "nota": 42.38
         }
       }
@@ -78,7 +78,7 @@
     "REST": {
       "peso": 40
     },
-    "Firebase": {
+    "FIREBASE": {
       "peso": 40
     }
   }

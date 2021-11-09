@@ -1,5 +1,5 @@
 const assert = require('assert').strict;
-const { main, ordenarMedias, formarGrupo, calcularGrauHardSkill } = require("../script")
+const { main, ordenarMedias, formarGrupo, calcularGrauHardSkill } = require("../formGroups")
 const turma = require('./turma.json')
 const util = require('./util.json')
 

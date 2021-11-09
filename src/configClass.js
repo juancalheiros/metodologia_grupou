@@ -6,8 +6,8 @@ const buildUnitHardSkill = (hardskill,qntdStudents, grauMinHardSkill, grauMaxHar
   const propsHardSkill = `{
     "${hardskill}": {
       "capacidade": {
-        "de":"${grauMinHardSkill}",
-        "ate":"${grauMaxHardSkill}",
+        "de":${grauMinHardSkill},
+        "ate":${grauMaxHardSkill},
         "outliers_perc_maiores_ate":"${calcula_outliers(0, qntdStudents)}",
         "outliers_perc_menores_de":"${calcula_outliers(0, qntdStudents)}"
       }
@@ -20,7 +20,7 @@ const buildUnitHardSkill = (hardskill,qntdStudents, grauMinHardSkill, grauMaxHar
 const buildHardSkillWeight = (hardskill, weight) => {
   const propsHardSkillWeight = `{
     "${hardskill}": {
-      "peso": "${weight}"
+      "peso": ${weight}
     }
   }`
   return JSON.parse(propsHardSkillWeight)

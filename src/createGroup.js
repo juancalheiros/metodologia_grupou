@@ -26,8 +26,10 @@ const main = (classroomFile, numberMembersInGroup) => {
   createGroupsDestinationFiles(classNumber, stringJSON, GROUPS_DESTINATION_PATH)
 }
 
-main('turmas/152.json', 6)
 
 module.exports = {
   main
 }
+
+// Exemplo de uso
+//main('turmas/150.json', 3)
