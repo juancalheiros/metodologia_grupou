@@ -2,16 +2,21 @@
   "name": "mock",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./src/server/app.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "nodemon ./src/server/serve.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "chance": "^1.1.7",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
     "lodash": "^4.17.21",
+    "nodemon": "^2.0.15",
     "yargs": "^16.1.0"
   },
   "devDependencies": {
