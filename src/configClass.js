@@ -1,3 +1,16 @@
+const SOFTSKILLS = [ 
+  "Calmo", 
+  "Paciência", 
+  "Colaboração",
+  "Conversação", 
+  "Questionador",
+  "Auto-Controle",
+  "Produtividade",
+  "Gestão de Tempo",
+  "Comunicação Eficaz",
+  "Resolução de Problemas",
+]
+
 const calcula_outliers = (percentual, qntdStudents) => {
   return Math.round((qntdStudents * percentual) / 100);
 }
@@ -26,7 +39,7 @@ const buildHardSkillWeight = (hardskill, weight) => {
   return JSON.parse(propsHardSkillWeight)
 }
 
-const configClassRoom = (classNumber, qntdStudents, hardskill, hardSkillWeight, softskills) => {
+const configClassRoom = (classNumber, qntdStudents, hardskill, hardSkillWeight) => {
   const grauMinHardSkill = 20
   const grauMaxHardSkill = 60
   const hardskill_1 = buildUnitHardSkill(hardskill[0], qntdStudents, grauMinHardSkill, grauMaxHardSkill)
@@ -39,7 +52,7 @@ const configClassRoom = (classNumber, qntdStudents, hardskill, hardSkillWeight, 
   const classBuild = {
     turma: classNumber,
     quantidade_alunos: qntdStudents,
-    softskills,
+    softskills: SOFTSKILLS,
     hardskills_turma: { ...hardskill_1, ...hardskill_2, ...hardskill_3},
     hardskills_atividade: { ...HardSkillWeight_1, ...HardSkillWeight_2, ...HardSkillWeight_3}
   }

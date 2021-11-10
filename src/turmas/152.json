@@ -1,0 +1,278 @@
+{
+  "alunos": [
+    {
+      "nome_completo": "Roy Rodgers",
+      "hardskills": {
+        "API": {
+          "nota": 30.18,
+          "diferenca_absoluta_media": -4.396666666666675,
+          "gap": 0.7210481825866442
+        },
+        "REST": {
+          "nota": 36.54,
+          "diferenca_absoluta_media": -1.5900000000000034,
+          "gap": 0.5235983528666456
+        },
+        "FIREBASE": {
+          "nota": 32.54,
+          "diferenca_absoluta_media": -9.288888888888899,
+          "gap": 0.8323600137409826
+        }
+      },
+      "softskills": [
+        "Colaboração",
+        "Auto-Controle",
+        "Resolução de Problemas",
+        "Questionador",
+        "Produtividade"
+      ]
+    },
+    {
+      "nome_completo": "Bradley Venturini",
+      "hardskills": {
+        "API": {
+          "nota": 32.09,
+          "diferenca_absoluta_media": -2.4866666666666717,
+          "gap": 0.6672302056917441
+        },
+        "REST": {
+          "nota": 40.55,
+          "diferenca_absoluta_media": 2.4199999999999946,
+          "gap": 0.39657903072537226
+        },
+        "FIREBASE": {
+          "nota": 56.77,
+          "diferenca_absoluta_media": 14.941111111111105,
+          "gap": 0
+        }
+      },
+      "softskills": [
+        "Conversação",
+        "Comunicação Eficaz",
+        "Gestão de Tempo",
+        "Auto-Controle",
+        "Questionador"
+      ]
+    },
+    {
+      "nome_completo": "Eunice Mora",
+      "hardskills": {
+        "API": {
+          "nota": 32.97,
+          "diferenca_absoluta_media": -1.6066666666666762,
+          "gap": 0.6424344885883349
+        },
+        "REST": {
+          "nota": 40.07,
+          "diferenca_absoluta_media": 1.9399999999999977,
+          "gap": 0.4117833386126069
+        },
+        "FIREBASE": {
+          "nota": 52.74,
+          "diferenca_absoluta_media": 10.911111111111104,
+          "gap": 0.13844039848849196
+        }
+      },
+      "softskills": [
+        "Colaboração",
+        "Calmo",
+        "Comunicação Eficaz",
+        "Gestão de Tempo",
+        "Questionador"
+      ]
+    },
+    {
+      "nome_completo": "Glenn Innocenti",
+      "hardskills": {
+        "API": {
+          "nota": 24.78,
+          "diferenca_absoluta_media": -9.796666666666674,
+          "gap": 0.8732037193575655
+        },
+        "REST": {
+          "nota": 53.07,
+          "diferenca_absoluta_media": 14.939999999999998,
+          "gap": 0
+        },
+        "FIREBASE": {
+          "nota": 43.62,
+          "diferenca_absoluta_media": 1.7911111111110998,
+          "gap": 0.45173479903813135
+        }
+      },
+      "softskills": [
+        "Conversação",
+        "Resolução de Problemas",
+        "Gestão de Tempo",
+        "Questionador",
+        "Comunicação Eficaz"
+      ]
+    },
+    {
+      "nome_completo": "Carlos König",
+      "hardskills": {
+        "API": {
+          "nota": 30.72,
+          "diferenca_absoluta_media": -3.8566666666666762,
+          "gap": 0.7058326289095521
+        },
+        "REST": {
+          "nota": 25.29,
+          "diferenca_absoluta_media": -12.840000000000003,
+          "gap": 0.8799493189737092
+        },
+        "FIREBASE": {
+          "nota": 40.49,
+          "diferenca_absoluta_media": -1.3388888888888957,
+          "gap": 0.5592579869460667
+        }
+      },
+      "softskills": [
+        "Paciência",
+        "Comunicação Eficaz",
+        "Auto-Controle",
+        "Resolução de Problemas",
+        "Gestão de Tempo"
+      ]
+    },
+    {
+      "nome_completo": "Jonathan Martin",
+      "hardskills": {
+        "API": {
+          "nota": 53.73,
+          "diferenca_absoluta_media": 19.15333333333332,
+          "gap": 0.05748098055790381
+        },
+        "REST": {
+          "nota": 52.06,
+          "diferenca_absoluta_media": 13.93,
+          "gap": 0.03199239784605632
+        },
+        "FIREBASE": {
+          "nota": 42.1,
+          "diferenca_absoluta_media": 0.27111111111110375,
+          "gap": 0.5039505324630711
+        }
+      },
+      "softskills": [
+        "Produtividade",
+        "Paciência",
+        "Auto-Controle",
+        "Comunicação Eficaz",
+        "Calmo"
+      ]
+    },
+    {
+      "nome_completo": "Gavin Austin",
+      "hardskills": {
+        "API": {
+          "nota": 55.77,
+          "diferenca_absoluta_media": 21.193333333333328,
+          "gap": 0
+        },
+        "REST": {
+          "nota": 38.05,
+          "diferenca_absoluta_media": -0.0800000000000054,
+          "gap": 0.47576813430471976
+        },
+        "FIREBASE": {
+          "nota": 50.24,
+          "diferenca_absoluta_media": 8.411111111111104,
+          "gap": 0.22432153899003782
+        }
+      },
+      "softskills": [
+        "Conversação",
+        "Gestão de Tempo",
+        "Produtividade",
+        "Colaboração",
+        "Questionador"
+      ]
+    },
+    {
+      "nome_completo": "Betty Kent",
+      "hardskills": {
+        "API": {
+          "nota": 30.67,
+          "diferenca_absoluta_media": -3.9066666666666734,
+          "gap": 0.7072414764722457
+        },
+        "REST": {
+          "nota": 36.04,
+          "diferenca_absoluta_media": -2.0900000000000034,
+          "gap": 0.539436173582515
+        },
+        "FIREBASE": {
+          "nota": 30.3,
+          "diferenca_absoluta_media": -11.528888888888897,
+          "gap": 0.9093095156303675
+        }
+      },
+      "softskills": [
+        "Comunicação Eficaz",
+        "Produtividade",
+        "Auto-Controle",
+        "Conversação",
+        "Paciência"
+      ]
+    },
+    {
+      "nome_completo": "Lottie Crini",
+      "hardskills": {
+        "API": {
+          "nota": 20.28,
+          "diferenca_absoluta_media": -14.296666666666674,
+          "gap": 1
+        },
+        "REST": {
+          "nota": 21.5,
+          "diferenca_absoluta_media": -16.630000000000003,
+          "gap": 1
+        },
+        "FIREBASE": {
+          "nota": 27.66,
+          "diferenca_absoluta_media": -14.168888888888898,
+          "gap": 1
+        }
+      },
+      "softskills": [
+        "Paciência",
+        "Comunicação Eficaz",
+        "Resolução de Problemas",
+        "Produtividade",
+        "Auto-Controle"
+      ]
+    }
+  ],
+  "analise": {
+    "API": {
+      "total_pontos": 311.19000000000005,
+      "menor": 20.28,
+      "maior": 55.77,
+      "media": 34.576666666666675
+    },
+    "REST": {
+      "total_pontos": 343.17,
+      "menor": 21.5,
+      "maior": 53.07,
+      "media": 38.13
+    },
+    "FIREBASE": {
+      "total_pontos": 376.4600000000001,
+      "menor": 27.66,
+      "maior": 56.77,
+      "media": 41.8288888888889
+    }
+  },
+  "hardskills_atividade": {
+    "API": {
+      "peso": 20
+    },
+    "REST": {
+      "peso": 40
+    },
+    "FIREBASE": {
+      "peso": 40
+    }
+  }
+}

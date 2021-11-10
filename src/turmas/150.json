@@ -1,0 +1,278 @@
+{
+  "alunos": [
+    {
+      "nome_completo": "Georgia Meijer",
+      "hardskills": {
+        "API": {
+          "nota": 25.79,
+          "diferenca_absoluta_media": -13.387777777777778,
+          "gap": 1
+        },
+        "REST": {
+          "nota": 58.04,
+          "diferenca_absoluta_media": 15.616666666666667,
+          "gap": 0
+        },
+        "FIREBASE": {
+          "nota": 43.9,
+          "diferenca_absoluta_media": 5.572222222222216,
+          "gap": 0.3969968387776608
+        }
+      },
+      "softskills": [
+        "Paciência",
+        "Colaboração",
+        "Calmo",
+        "Produtividade",
+        "Questionador"
+      ]
+    },
+    {
+      "nome_completo": "Clarence Leach",
+      "hardskills": {
+        "API": {
+          "nota": 34.91,
+          "diferenca_absoluta_media": -4.267777777777781,
+          "gap": 0.6177703269069573
+        },
+        "REST": {
+          "nota": 55.68,
+          "diferenca_absoluta_media": 13.256666666666668,
+          "gap": 0.07061639736684618
+        },
+        "FIREBASE": {
+          "nota": 51.72,
+          "diferenca_absoluta_media": 13.392222222222216,
+          "gap": 0.1909905163329821
+        }
+      },
+      "softskills": [
+        "Paciência",
+        "Questionador",
+        "Colaboração",
+        "Gestão de Tempo",
+        "Resolução de Problemas"
+      ]
+    },
+    {
+      "nome_completo": "James Borselli",
+      "hardskills": {
+        "API": {
+          "nota": 32.75,
+          "diferenca_absoluta_media": -6.427777777777777,
+          "gap": 0.7082984073763621
+        },
+        "REST": {
+          "nota": 31.4,
+          "diferenca_absoluta_media": -11.023333333333333,
+          "gap": 0.7971274685816876
+        },
+        "FIREBASE": {
+          "nota": 23.19,
+          "diferenca_absoluta_media": -15.137777777777782,
+          "gap": 0.9425711275026345
+        }
+      },
+      "softskills": [
+        "Conversação",
+        "Produtividade",
+        "Colaboração",
+        "Calmo",
+        "Resolução de Problemas"
+      ]
+    },
+    {
+      "nome_completo": "Leila Peruzzi",
+      "hardskills": {
+        "API": {
+          "nota": 38.59,
+          "diferenca_absoluta_media": -0.5877777777777737,
+          "gap": 0.4635373009220451
+        },
+        "REST": {
+          "nota": 46.39,
+          "diferenca_absoluta_media": 3.9666666666666686,
+          "gap": 0.34859365649311785
+        },
+        "FIREBASE": {
+          "nota": 23.67,
+          "diferenca_absoluta_media": -14.657777777777781,
+          "gap": 0.9299262381454163
+        }
+      },
+      "softskills": [
+        "Paciência",
+        "Calmo",
+        "Colaboração",
+        "Comunicação Eficaz",
+        "Resolução de Problemas"
+      ]
+    },
+    {
+      "nome_completo": "Tommy Hirano",
+      "hardskills": {
+        "API": {
+          "nota": 43.38,
+          "diferenca_absoluta_media": 4.202222222222225,
+          "gap": 0.2627829002514667
+        },
+        "REST": {
+          "nota": 38.93,
+          "diferenca_absoluta_media": -3.4933333333333323,
+          "gap": 0.5718132854578096
+        },
+        "FIREBASE": {
+          "nota": 45.17,
+          "diferenca_absoluta_media": 6.842222222222219,
+          "gap": 0.3635405690200211
+        }
+      },
+      "softskills": [
+        "Colaboração",
+        "Calmo",
+        "Resolução de Problemas",
+        "Gestão de Tempo",
+        "Produtividade"
+      ]
+    },
+    {
+      "nome_completo": "Bess O'connor",
+      "hardskills": {
+        "API": {
+          "nota": 35.58,
+          "diferenca_absoluta_media": -3.597777777777779,
+          "gap": 0.5896898575020956
+        },
+        "REST": {
+          "nota": 47.69,
+          "diferenca_absoluta_media": 5.266666666666666,
+          "gap": 0.30969479353680435
+        },
+        "FIREBASE": {
+          "nota": 54.53,
+          "diferenca_absoluta_media": 16.20222222222222,
+          "gap": 0.11696522655426761
+        }
+      },
+      "softskills": [
+        "Questionador",
+        "Calmo",
+        "Resolução de Problemas",
+        "Auto-Controle",
+        "Paciência"
+      ]
+    },
+    {
+      "nome_completo": "Amanda Watts",
+      "hardskills": {
+        "API": {
+          "nota": 43.28,
+          "diferenca_absoluta_media": 4.102222222222224,
+          "gap": 0.26697401508801333
+        },
+        "REST": {
+          "nota": 24.62,
+          "diferenca_absoluta_media": -17.80333333333333,
+          "gap": 1
+        },
+        "FIREBASE": {
+          "nota": 58.97,
+          "diferenca_absoluta_media": 20.642222222222216,
+          "gap": 0
+        }
+      },
+      "softskills": [
+        "Questionador",
+        "Produtividade",
+        "Resolução de Problemas",
+        "Conversação",
+        "Calmo"
+      ]
+    },
+    {
+      "nome_completo": "Florence Norris",
+      "hardskills": {
+        "API": {
+          "nota": 49.65,
+          "diferenca_absoluta_media": 10.472222222222221,
+          "gap": 0
+        },
+        "REST": {
+          "nota": 30.8,
+          "diferenca_absoluta_media": -11.623333333333331,
+          "gap": 0.81508078994614
+        },
+        "FIREBASE": {
+          "nota": 22.79,
+          "diferenca_absoluta_media": -15.537777777777784,
+          "gap": 0.9531085353003163
+        }
+      },
+      "softskills": [
+        "Auto-Controle",
+        "Questionador",
+        "Calmo",
+        "Gestão de Tempo",
+        "Resolução de Problemas"
+      ]
+    },
+    {
+      "nome_completo": "Randy Clark",
+      "hardskills": {
+        "API": {
+          "nota": 48.67,
+          "diferenca_absoluta_media": 9.492222222222225,
+          "gap": 0.04107292539815578
+        },
+        "REST": {
+          "nota": 48.26,
+          "diferenca_absoluta_media": 5.836666666666666,
+          "gap": 0.2926391382405745
+        },
+        "FIREBASE": {
+          "nota": 21.01,
+          "diferenca_absoluta_media": -17.31777777777778,
+          "gap": 1
+        }
+      },
+      "softskills": [
+        "Resolução de Problemas",
+        "Gestão de Tempo",
+        "Questionador",
+        "Comunicação Eficaz",
+        "Conversação"
+      ]
+    }
+  ],
+  "analise": {
+    "API": {
+      "total_pontos": 352.6,
+      "menor": 25.79,
+      "maior": 49.65,
+      "media": 39.17777777777778
+    },
+    "REST": {
+      "total_pontos": 381.81,
+      "menor": 24.62,
+      "maior": 58.04,
+      "media": 42.42333333333333
+    },
+    "FIREBASE": {
+      "total_pontos": 344.95000000000005,
+      "menor": 21.01,
+      "maior": 58.97,
+      "media": 38.32777777777778
+    }
+  },
+  "hardskills_atividade": {
+    "API": {
+      "peso": 20
+    },
+    "REST": {
+      "peso": 40
+    },
+    "FIREBASE": {
+      "peso": 40
+    }
+  }
+}

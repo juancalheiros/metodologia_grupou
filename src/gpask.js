@@ -1,20 +1,19 @@
 const createGroup = require("./createGroup").main
 const createClassRoom = require("./createClassRoom").main
+
 const _ = require("lodash")
 
 const main = (
     classNumber, 
     qntdStudents,
     hardskill, 
-    hardSkillWeight, 
-    softskills,
+    hardSkillWeight,
     numberMembersInGroup
     ) => {
-    
-        createClassRoom(classNumber, qntdStudents, hardskill, hardSkillWeight, softskills)
         
-        const debounce_function = _.debounce(() => createGroup(`turmas/${classNumber}.json`, numberMembersInGroup), 2000)
-        debounce_function()
+        createClassRoom(classNumber, qntdStudents, hardskill, hardSkillWeight)       
+        const createGroupDebounce= _.debounce(() => createGroup(classNumber, numberMembersInGroup), 2000)
+        createGroupDebounce()
     }
 
 
@@ -23,22 +22,11 @@ module.exports = {
 }
 
 //Valores de exemplo para teste 
-// const classNumber = 150
-// const qntdStudents = 9
-// const numberMembersInGroup = 3
-// const hardskill = ["API", "REST", "FIREBASE"] 
-// const hardSkillWeight = [20,40,40]
-// const softskills = [ 
-//   "Calmo", 
-//   "Paciência", 
-//   "Colaboração",
-//   "Conversação", 
-//   "Questionador",
-//   "Auto-Controle",
-//   "Produtividade",
-//   "Gestão de Tempo",
-//   "Comunicação Eficaz",
-//   "Resolução de Problemas",
-// ]
+const classNumber = 155
+const qntdStudents = 9
+const numberMembersInGroup = 3
+const hardskill = ["node", "golang", "ruby"] 
+const hardSkillWeight = [20,40,40]
 
-// main(classNumber, qntdStudents, hardskill, hardSkillWeight, softskills, numberMembersInGroup)
+
+console.log("====>>>",main(classNumber, qntdStudents, hardskill, hardSkillWeight, numberMembersInGroup))

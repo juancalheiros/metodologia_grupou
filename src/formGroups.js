@@ -1,10 +1,18 @@
 const calcularGrauHardSkill = ({ alunos, hardskills_atividade }) => {
     const resp = []
+    const HardSkillWeight_1 = Object.values(hardskills_atividade)[0]
+    const HardSkillWeight_2 = Object.values(hardskills_atividade)[1]
+    const HardSkillWeight_3 = Object.values(hardskills_atividade)[2]
+
     alunos.forEach((aluno, index, alunos) => {
         
-        const { API, REST, FIREBASE } = aluno.hardskills
-        const somaPonderadaHardSkill = ((API.nota * hardskills_atividade.API.peso) + (REST.nota * hardskills_atividade.REST.peso) + (FIREBASE.nota * hardskills_atividade.FIREBASE.peso))
-        const grauHardSkill = somaPonderadaHardSkill/(hardskills_atividade.API.peso + hardskills_atividade.REST.peso + hardskills_atividade.FIREBASE.peso)
+        const hardskill_1 = Object.values(aluno.hardskills)[0]
+        const hardskill_2 = Object.values(aluno.hardskills)[1]
+        const hardskill_3 = Object.values(aluno.hardskills)[2]
+        
+
+        const somaPonderadaHardSkill = ((hardskill_1.nota * HardSkillWeight_1.peso) + (hardskill_2.nota * HardSkillWeight_2.peso) + (hardskill_3.nota * HardSkillWeight_3.peso))
+        const grauHardSkill = somaPonderadaHardSkill/(HardSkillWeight_1.peso + HardSkillWeight_2.peso + HardSkillWeight_3.peso)
         
         alunos[index].grauHardSkill = { "nota": parseFloat(grauHardSkill.toFixed(2)) }
         

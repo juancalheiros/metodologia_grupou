@@ -1,0 +1,278 @@
+{
+  "alunos": [
+    {
+      "nome_completo": "Gerald Cohen",
+      "hardskills": {
+        "node": {
+          "nota": 36.31,
+          "diferenca_absoluta_media": -7.283333333333331,
+          "gap": 0.7570659488559892
+        },
+        "golang": {
+          "nota": 55.28,
+          "diferenca_absoluta_media": 15.884444444444448,
+          "gap": 0
+        },
+        "ruby": {
+          "nota": 29.62,
+          "diferenca_absoluta_media": -12.305555555555546,
+          "gap": 0.810008990110878
+        }
+      },
+      "softskills": [
+        "Paciência",
+        "Conversação",
+        "Comunicação Eficaz",
+        "Gestão de Tempo",
+        "Colaboração"
+      ]
+    },
+    {
+      "nome_completo": "Olga Nakagawa",
+      "hardskills": {
+        "node": {
+          "nota": 29.09,
+          "diferenca_absoluta_media": -14.503333333333334,
+          "gap": 1
+        },
+        "golang": {
+          "nota": 24.01,
+          "diferenca_absoluta_media": -15.385555555555552,
+          "gap": 1
+        },
+        "ruby": {
+          "nota": 48.06,
+          "diferenca_absoluta_media": 6.134444444444455,
+          "gap": 0.2574168414743781
+        }
+      },
+      "softskills": [
+        "Conversação",
+        "Resolução de Problemas",
+        "Gestão de Tempo",
+        "Colaboração",
+        "Produtividade"
+      ]
+    },
+    {
+      "nome_completo": "Myrtie Evers",
+      "hardskills": {
+        "node": {
+          "nota": 40.98,
+          "diferenca_absoluta_media": -2.613333333333337,
+          "gap": 0.5999327052489907
+        },
+        "golang": {
+          "nota": 52.74,
+          "diferenca_absoluta_media": 13.344444444444449,
+          "gap": 0.08122801407099453
+        },
+        "ruby": {
+          "nota": 47.13,
+          "diferenca_absoluta_media": 5.204444444444455,
+          "gap": 0.285286185196284
+        }
+      },
+      "softskills": [
+        "Questionador",
+        "Paciência",
+        "Calmo",
+        "Resolução de Problemas",
+        "Produtividade"
+      ]
+    },
+    {
+      "nome_completo": "Lelia Harper",
+      "hardskills": {
+        "node": {
+          "nota": 58.81,
+          "diferenca_absoluta_media": 15.216666666666669,
+          "gap": 0
+        },
+        "golang": {
+          "nota": 48.56,
+          "diferenca_absoluta_media": 9.164444444444449,
+          "gap": 0.21490246242404856
+        },
+        "ruby": {
+          "nota": 45.42,
+          "diferenca_absoluta_media": 3.4944444444444542,
+          "gap": 0.3365298172010787
+        }
+      },
+      "softskills": [
+        "Questionador",
+        "Produtividade",
+        "Calmo",
+        "Paciência",
+        "Auto-Controle"
+      ]
+    },
+    {
+      "nome_completo": "Maurice Alterini",
+      "hardskills": {
+        "node": {
+          "nota": 39.48,
+          "diferenca_absoluta_media": -4.113333333333337,
+          "gap": 0.6504037685060566
+        },
+        "golang": {
+          "nota": 30.32,
+          "diferenca_absoluta_media": -9.075555555555553,
+          "gap": 0.7982091461464663
+        },
+        "ruby": {
+          "nota": 41.89,
+          "diferenca_absoluta_media": -0.0355555555555469,
+          "gap": 0.4423134551992808
+        }
+      },
+      "softskills": [
+        "Conversação",
+        "Comunicação Eficaz",
+        "Questionador",
+        "Produtividade",
+        "Gestão de Tempo"
+      ]
+    },
+    {
+      "nome_completo": "Jack Pellegrini",
+      "hardskills": {
+        "node": {
+          "nota": 55.21,
+          "diferenca_absoluta_media": 11.616666666666667,
+          "gap": 0.12113055181695831
+        },
+        "golang": {
+          "nota": 29.13,
+          "diferenca_absoluta_media": -10.265555555555554,
+          "gap": 0.8362647905340583
+        },
+        "ruby": {
+          "nota": 30.95,
+          "diferenca_absoluta_media": -10.975555555555548,
+          "gap": 0.7701528318849267
+        }
+      },
+      "softskills": [
+        "Resolução de Problemas",
+        "Paciência",
+        "Auto-Controle",
+        "Produtividade",
+        "Calmo"
+      ]
+    },
+    {
+      "nome_completo": "Tyler Borghi",
+      "hardskills": {
+        "node": {
+          "nota": 37.04,
+          "diferenca_absoluta_media": -6.553333333333335,
+          "gap": 0.7325033647375505
+        },
+        "golang": {
+          "nota": 32.09,
+          "diferenca_absoluta_media": -7.30555555555555,
+          "gap": 0.7416053725615606
+        },
+        "ruby": {
+          "nota": 54.33,
+          "diferenca_absoluta_media": 12.40444444444445,
+          "gap": 0.0695235241234642
+        }
+      },
+      "softskills": [
+        "Auto-Controle",
+        "Gestão de Tempo",
+        "Questionador",
+        "Paciência",
+        "Conversação"
+      ]
+    },
+    {
+      "nome_completo": "Margaret Maeda",
+      "hardskills": {
+        "node": {
+          "nota": 39.97,
+          "diferenca_absoluta_media": -3.623333333333335,
+          "gap": 0.6339165545087484
+        },
+        "golang": {
+          "nota": 32.43,
+          "diferenca_absoluta_media": -6.965555555555554,
+          "gap": 0.730732331307963
+        },
+        "ruby": {
+          "nota": 56.65,
+          "diferenca_absoluta_media": 14.724444444444451,
+          "gap": 0
+        }
+      },
+      "softskills": [
+        "Comunicação Eficaz",
+        "Conversação",
+        "Produtividade",
+        "Gestão de Tempo",
+        "Resolução de Problemas"
+      ]
+    },
+    {
+      "nome_completo": "Charles Walter",
+      "hardskills": {
+        "node": {
+          "nota": 55.45,
+          "diferenca_absoluta_media": 11.85666666666667,
+          "gap": 0.11305518169582769
+        },
+        "golang": {
+          "nota": 50,
+          "diferenca_absoluta_media": 10.604444444444447,
+          "gap": 0.1688519347617525
+        },
+        "ruby": {
+          "nota": 23.28,
+          "diferenca_absoluta_media": -18.645555555555546,
+          "gap": 1
+        }
+      },
+      "softskills": [
+        "Colaboração",
+        "Calmo",
+        "Conversação",
+        "Gestão de Tempo",
+        "Resolução de Problemas"
+      ]
+    }
+  ],
+  "analise": {
+    "node": {
+      "total_pontos": 392.34,
+      "menor": 29.09,
+      "maior": 58.81,
+      "media": 43.593333333333334
+    },
+    "golang": {
+      "total_pontos": 354.56,
+      "menor": 24.01,
+      "maior": 55.28,
+      "media": 39.39555555555555
+    },
+    "ruby": {
+      "total_pontos": 377.3299999999999,
+      "menor": 23.28,
+      "maior": 56.65,
+      "media": 41.92555555555555
+    }
+  },
+  "hardskills_atividade": {
+    "node": {
+      "peso": 20
+    },
+    "golang": {
+      "peso": 40
+    },
+    "ruby": {
+      "peso": 40
+    }
+  }
+}

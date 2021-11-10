@@ -1,0 +1,291 @@
+{
+  "grupos": {
+    "grupo_1": [
+      {
+        "nome_completo": "Sean Benoît",
+        "hardskills": {
+          "API": {
+            "nota": 59.07,
+            "diferenca_absoluta_media": 15.598888888888894,
+            "gap": 0.005835543766578219
+          },
+          "REST": {
+            "nota": 51.83,
+            "diferenca_absoluta_media": 8.99111111111111,
+            "gap": 0.17072510822510828
+          },
+          "FIREBASE": {
+            "nota": 47.17,
+            "diferenca_absoluta_media": 3.480000000000011,
+            "gap": 0.39752513534416084
+          }
+        },
+        "softskills": [
+          "Gestão de Tempo",
+          "Paciência",
+          "Resolução de Problemas",
+          "Calmo",
+          "Questionador"
+        ],
+        "grauHardSkill": {
+          "nota": 51.41
+        }
+      },
+      {
+        "nome_completo": "Bertie Thornton",
+        "hardskills": {
+          "API": {
+            "nota": 23.04,
+            "diferenca_absoluta_media": -20.431111111111107,
+            "gap": 0.9615384615384615
+          },
+          "REST": {
+            "nota": 27.26,
+            "diferenca_absoluta_media": -15.578888888888887,
+            "gap": 0.8354978354978354
+          },
+          "FIREBASE": {
+            "nota": 44.31,
+            "diferenca_absoluta_media": 0.6200000000000117,
+            "gap": 0.5081206496519721
+          }
+        },
+        "softskills": [
+          "Gestão de Tempo",
+          "Colaboração",
+          "Conversação",
+          "Comunicação Eficaz",
+          "Auto-Controle"
+        ],
+        "grauHardSkill": {
+          "nota": 33.24
+        }
+      },
+      {
+        "nome_completo": "Irene Ménard",
+        "hardskills": {
+          "API": {
+            "nota": 59.29,
+            "diferenca_absoluta_media": 15.818888888888893,
+            "gap": 0
+          },
+          "REST": {
+            "nota": 52.43,
+            "diferenca_absoluta_media": 9.591111111111111,
+            "gap": 0.154491341991342
+          },
+          "FIREBASE": {
+            "nota": 42.9,
+            "diferenca_absoluta_media": -0.789999999999992,
+            "gap": 0.5626450116009282
+          }
+        },
+        "softskills": [
+          "Auto-Controle",
+          "Calmo",
+          "Conversação",
+          "Paciência",
+          "Comunicação Eficaz"
+        ],
+        "grauHardSkill": {
+          "nota": 49.99
+        }
+      }
+    ],
+    "grupo_2": [
+      {
+        "nome_completo": "Effie Ferrer",
+        "hardskills": {
+          "API": {
+            "nota": 21.59,
+            "diferenca_absoluta_media": -21.881111111111107,
+            "gap": 1
+          },
+          "REST": {
+            "nota": 58.14,
+            "diferenca_absoluta_media": 15.301111111111112,
+            "gap": 0
+          },
+          "FIREBASE": {
+            "nota": 51.2,
+            "diferenca_absoluta_media": 7.510000000000012,
+            "gap": 0.24168600154679037
+          }
+        },
+        "softskills": [
+          "Auto-Controle",
+          "Produtividade",
+          "Calmo",
+          "Comunicação Eficaz",
+          "Gestão de Tempo"
+        ],
+        "grauHardSkill": {
+          "nota": 48.05
+        }
+      },
+      {
+        "nome_completo": "Zachary Fani",
+        "hardskills": {
+          "API": {
+            "nota": 57.7,
+            "diferenca_absoluta_media": 14.228888888888896,
+            "gap": 0.04217506631299724
+          },
+          "REST": {
+            "nota": 21.18,
+            "diferenca_absoluta_media": -21.65888888888889,
+            "gap": 1
+          },
+          "FIREBASE": {
+            "nota": 42.13,
+            "diferenca_absoluta_media": -1.559999999999988,
+            "gap": 0.5924207269914926
+          }
+        },
+        "softskills": [
+          "Resolução de Problemas",
+          "Produtividade",
+          "Gestão de Tempo",
+          "Colaboração",
+          "Auto-Controle"
+        ],
+        "grauHardSkill": {
+          "nota": 36.86
+        }
+      },
+      {
+        "nome_completo": "Phillip French",
+        "hardskills": {
+          "API": {
+            "nota": 55.6,
+            "diferenca_absoluta_media": 12.128888888888895,
+            "gap": 0.09787798408488056
+          },
+          "REST": {
+            "nota": 53.91,
+            "diferenca_absoluta_media": 11.071111111111108,
+            "gap": 0.11444805194805205
+          },
+          "FIREBASE": {
+            "nota": 31.59,
+            "diferenca_absoluta_media": -12.09999999999999,
+            "gap": 1
+          }
+        },
+        "softskills": [
+          "Colaboração",
+          "Questionador",
+          "Paciência",
+          "Comunicação Eficaz",
+          "Produtividade"
+        ],
+        "grauHardSkill": {
+          "nota": 45.32
+        }
+      }
+    ],
+    "grupo_3": [
+      {
+        "nome_completo": "Jorge Weiß",
+        "hardskills": {
+          "API": {
+            "nota": 44.67,
+            "diferenca_absoluta_media": 1.198888888888895,
+            "gap": 0.3877984084880636
+          },
+          "REST": {
+            "nota": 52.65,
+            "diferenca_absoluta_media": 9.81111111111111,
+            "gap": 0.14853896103896108
+          },
+          "FIREBASE": {
+            "nota": 37.49,
+            "diferenca_absoluta_media": -6.199999999999989,
+            "gap": 0.7718484145398298
+          }
+        },
+        "softskills": [
+          "Colaboração",
+          "Resolução de Problemas",
+          "Auto-Controle",
+          "Conversação",
+          "Questionador"
+        ],
+        "grauHardSkill": {
+          "nota": 44.99
+        }
+      },
+      {
+        "nome_completo": "Lida Cheli",
+        "hardskills": {
+          "API": {
+            "nota": 31.07,
+            "diferenca_absoluta_media": -12.401111111111106,
+            "gap": 0.7485411140583553
+          },
+          "REST": {
+            "nota": 26.78,
+            "diferenca_absoluta_media": -16.058888888888887,
+            "gap": 0.8484848484848484
+          },
+          "FIREBASE": {
+            "nota": 57.45,
+            "diferenca_absoluta_media": 13.760000000000012,
+            "gap": 0
+          }
+        },
+        "softskills": [
+          "Produtividade",
+          "Gestão de Tempo",
+          "Comunicação Eficaz",
+          "Questionador",
+          "Calmo"
+        ],
+        "grauHardSkill": {
+          "nota": 39.91
+        }
+      },
+      {
+        "nome_completo": "Bernice Sato",
+        "hardskills": {
+          "API": {
+            "nota": 39.21,
+            "diferenca_absoluta_media": -4.261111111111106,
+            "gap": 0.5326259946949601
+          },
+          "REST": {
+            "nota": 41.37,
+            "diferenca_absoluta_media": -1.4688888888888911,
+            "gap": 0.4537337662337663
+          },
+          "FIREBASE": {
+            "nota": 38.97,
+            "diferenca_absoluta_media": -4.719999999999992,
+            "gap": 0.7146171693735499
+          }
+        },
+        "softskills": [
+          "Conversação",
+          "Produtividade",
+          "Colaboração",
+          "Resolução de Problemas",
+          "Questionador"
+        ],
+        "grauHardSkill": {
+          "nota": 39.98
+        }
+      }
+    ]
+  },
+  "hardskills_atividade": {
+    "API": {
+      "peso": 20
+    },
+    "REST": {
+      "peso": 40
+    },
+    "FIREBASE": {
+      "peso": 40
+    }
+  }
+}
