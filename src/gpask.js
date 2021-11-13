@@ -1,7 +1,7 @@
 const createGroup = require("./createGroup").main
 const createClassRoom = require("./createClassRoom").main
 
-const _ = require("lodash")
+const { debounce } = require("lodash")
 
 const main = (
     classNumber, 
@@ -12,7 +12,8 @@ const main = (
     ) => {
         
         createClassRoom(classNumber, qntdStudents, hardskill, hardSkillWeight)       
-        const createGroupDebounce= _.debounce(() => createGroup(classNumber, numberMembersInGroup), 2000)
+        
+        const createGroupDebounce = debounce(() => createGroup(classNumber, numberMembersInGroup), 1000)
         createGroupDebounce()
     }
 
@@ -22,11 +23,11 @@ module.exports = {
 }
 
 //Valores de exemplo para teste 
-const classNumber = 155
-const qntdStudents = 9
-const numberMembersInGroup = 3
-const hardskill = ["node", "golang", "ruby"] 
-const hardSkillWeight = [20,40,40]
+// const classNumber = 156
+// const qntdStudents = 9
+// const numberMembersInGroup = 3
+// const hardskill = ["node", "golang", "ruby"] 
+// const hardSkillWeight = [20,40,40]
 
 
-console.log("====>>>",main(classNumber, qntdStudents, hardskill, hardSkillWeight, numberMembersInGroup))
+// console.log("====>>> pmain", main(classNumber, qntdStudents, hardskill, hardSkillWeight, numberMembersInGroup))
